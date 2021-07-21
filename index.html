@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>evosim</title>
+    <style>
+      body {
+        background: #333;
+        overflow: hidden;
+        margin: 0;
+      }
+      .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        color: #f3f3f3;
+        font: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='center' id='loading'>
+      <div>
+        <h1>now loading!</h1>
+      </div>
+    </div>
+    <audio src='assets/audio/pop1.mp3' preload style='display:none' id='pop-sound'></audio>
+
+    <script src="lib/three.min.js"></script>
+
+    <script src="lib/OBJLoader.js"></script>
+    <script src="lib/MTLLoader.js"></script>
+
+    <script src="lib/OrbitControls.js"></script>
+
+    <script src="lib/EffectComposer.js"></script>
+    <script src="lib/CopyShader.js"></script>
+    <script src="lib/ShaderPass.js"></script>
+    <script src="lib/RenderPass.js"></script>
+    <script src="lib/BokehShader.js"></script>
+    <script src="lib/BokehPass.js"></script>
+    <script src='render.js'></script>
+    <script src='evosim.js'></script>
+  </body>
+</html>
