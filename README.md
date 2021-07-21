@@ -34,6 +34,8 @@ Assuming nothing unexpected happens to cause either population to die out entire
 
 ### Credits
 
-The toon water scene (including the tugboat, octopus, and lighthouse models) is from [this repository](https://github.com/OmarShehata/tutsplus-toon-water).  Prey eat and new generation "pop" sounds are from Minecraft, and the predator "chomp" sound is from [here](https://www.youtube.com/watch?v=TrS_IllDslA).
+The toon water scene (including the tugboat, octopus, and lighthouse models) is from [this repository](https://github.com/OmarShehata/tutsplus-toon-water).  All other 3D models are my own.
 
-All other 3D models are my own.
+Prey eat and new generation "pop" sounds are from Minecraft, and the predator "chomp" sound is from [here](https://www.youtube.com/watch?v=TrS_IllDslA).
+
+Three.js effects (SSAO, Bokeh blur, etc.) are from its [examples folder](https://github.com/mrdoob/three.js/tree/dev/examples/js).
