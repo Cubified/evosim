@@ -19,7 +19,7 @@ const e = {
   config: {
     popsize: 20,
     foodsize: 8,
-    predsize: 8,
+    predsize: 3,
     world: {
       w: 8,
       h: 8
